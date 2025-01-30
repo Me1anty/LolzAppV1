@@ -1,54 +1,121 @@
-<<<<<<< HEAD
-# LolzAppV1
-=======
-# React + TypeScript + Vite
+# 🚀 LOLZ Market Mobile App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![LOLZ App](https://img.shields.io/badge/LOLZ-Market-2BAD72?style=for-the-badge&logo=android&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-## Expanding the ESLint configuration
+🌟 Мобильное приложение для [LOLZ ](https://lolz.live) с современным дизайном и удобным интерфейсом.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Возможности](#-возможности) •
+[Установка](#-установка) •
+[Разработка](#-разработка)
 
-- Configure the top-level `parserOptions` property like this:
+</div>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## ✨ Возможности
+
+<div align="center">
+<img src="/api/placeholder/800/400" alt="App Features" />
+</div>
+
+- 🔐 **Безопасная авторизация** через API токен
+- 💰 **Управление балансом** и переводы средств
+- 📊 **История операций** с детальной информацией
+- ⚡ **Быстрые обновления** данных профиля
+- 🌙 **Тёмная тема** и современный дизайн
+- 📱 **Нативный опыт** благодаря Capacitor
+
+## 🛠 Установка
+
+### Требования
+
+- Node.js 18+
+- Java JDK 17+
+- Android Studio
+- Android SDK Platform 33
+- Gradle 8+
+
+### Быстрый старт
+
+1. **Клонирование репозитория**
+```bash
+git clone https://github.com/Me1anty/LolzAppV1.git
+cd LolzAppV1
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. **Установка зависимостей**
+```bash
+npm install
 ```
->>>>>>> 5a887fc (Initial commit)
+
+3. **Запуск в режиме разработки**
+```bash
+npm run dev
+```
+
+4. **Сборка для Android**
+```bash
+npm run build
+npx cap sync
+npx cap open android
+```
+
+
+## 💻 Разработка
+
+### Структура проекта
+
+```
+src/
+├── assets/          # Статические ресурсы
+├── components/      # React компоненты
+│   ├── Layout/     # Компоненты layout'а
+│   ├── UI/         # UI компоненты
+├── styles/         # Стили
+├── types/          # TypeScript типы
+└── utils/          # Утилиты
+```
+
+### Технологии
+
+- ⚛️ **React 18** - для построения пользовательского интерфейса
+- 🎨 **TailwindCSS** - для стилизации
+- 📱 **Capacitor** - для нативной функциональности
+- 🔷 **TypeScript** - для типизации
+- 🚀 **Vite** - для быстрой разработки
+- 🔑 **Capacitor Preferences** - для хранения данных
+- 🌐 **Capacitor HTTP** - для работы с API
+
+## 🤝 Вклад в проект
+
+Мы приветствуем ваш вклад в развитие проекта! Вот как вы можете помочь:
+
+1. Форкните репозиторий
+2. Создайте ветку для ваших изменений
+3. Внесите изменения и сделайте коммит
+4. Создайте Pull Request
+
+## 📄 Лицензия
+
+```
+MIT License
+
+Copyright (c) 2024 Me1anty
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software...
+```
+
+
+<div align="center">
+
+Разработано с ❤️ by [Me1anty](https://github.com/Me1anty)
+
+<img src="/api/placeholder/800/100" alt="Footer Banner" />
+
+</div>
