@@ -105,10 +105,7 @@ src/
 ```
 MIT License
 
-Copyright (c) 2024 Me1anty
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software...
+Copyright (c) 2925 Me1anty
 ```
 
 
@@ -116,6 +113,4 @@ of this software...
 
 Разработано с ❤️ by [Me1anty](https://github.com/Me1anty)
 
-<img src="/api/placeholder/800/100" alt="Footer Banner" />
 
-</div>
